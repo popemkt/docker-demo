@@ -1,0 +1,45 @@
+html,
+body,
+#root {
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ff9068;
+    background: linear-gradient(45deg, #fd746c, #ff9068);
+}
+
+.note {
+    min-width: 450px;
+    max-width: 50%;
+    min-height: 480px;
+    max-height: 100%;
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(25, 25, 25, 0.25);
+    padding: 3rem;
+}
+
+.note .title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.note .task-list {
+    padding: 20px;
+}
+
+.note .task {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.note .task .done {
+    text-decoration: line-through;
+}
