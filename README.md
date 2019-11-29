@@ -38,4 +38,4 @@ In the project directory (`cd` to the folder), run (`PowerShell` or `bash` is pr
 
 **Notes: add `-v <YourFolderHere>:/home/temp` if you want to mount a folder on host machine to /home/temp on the container
 
-Open localhost:4000 to use the app.
+Open [http://localhost:3000](http://localhost:3000) to use the app.
