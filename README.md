@@ -23,7 +23,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### `npm install -g serve`
 
 Install `serve`, which is a small server for deploying react apps.
-Then serve the `build` folder on port **3000.
+Then serve the `build` folder on port **3000**.
 
 ## Build Docker image
 
