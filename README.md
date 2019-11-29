@@ -25,7 +25,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 Install `serve`, which is a small server for deploying react apps.
 Then serve the `build` folder on port **3000**.
 
-## Build Docker image
+## Build Docker and run image
 
 **Prequisites:** Docker installed and running. If not, follow the [Official Documentation](https://docs.docker.com/docker-for-windows/install/).
 
