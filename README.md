@@ -1,5 +1,5 @@
 This project serves as a Docker demonstration.
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Local Deployment
 
