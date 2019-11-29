@@ -12,8 +12,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Or you can build for production and serve the app:
 
-**Prequisites: Docker installed and running. If not, follow the [Official Documentation](https://docs.docker.com/docker-for-windows/install/).**
-
 ### `npm install`
 ### `npm run build`
 
@@ -29,13 +27,13 @@ Then serve the `build` folder on port **3000.
 
 ## Build Docker image
 
-**Prequisites: Docker installed and running. If not, follow the [Official Documentation](https://docs.docker.com/docker-for-windows/install/).** 
+**Prequisites:** Docker installed and running. If not, follow the [Official Documentation](https://docs.docker.com/docker-for-windows/install/).
 
 In the project directory (`cd` to the folder), run (`PowerShell` or `bash` is preferred):
 
 ### `docker build -t todoapp .`
 ### `docker run -d --rm -p 4000:3000 --name todoapp todoapp`
 
-**Notes: add `-v <YourFolderHere>:/home/temp` if you want to mount a folder on host machine to /home/temp on the container**
+**Notes:** add `-v <YourFolderHere>:/home/temp` if you want to mount a folder on host machine to `/home/temp` on the container.
 
 Open [http://localhost:3000](http://localhost:3000) to use the app.
