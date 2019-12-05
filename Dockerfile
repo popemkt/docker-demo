@@ -1,4 +1,4 @@
-#Stage 1: Create build artifacts in buid environment
+#Stage 1: Create build artifacts in build environment
 FROM node:10-alpine as buildenv
 
 COPY . /home/app/todolist
