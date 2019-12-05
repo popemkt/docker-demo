@@ -17,7 +17,7 @@ WORKDIR /home/app
 
 COPY --from=buildenv /home/app/todolist/build /home/app
 
-RUN npm install -g serve
+RUN npm install -g serve@11.2.0
 
 EXPOSE 3000
 
