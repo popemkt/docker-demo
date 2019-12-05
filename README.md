@@ -3,14 +3,14 @@ It was bootstrapped with [Create React App](https://github.com/facebook/create-r
 
 ## Local Deployment
 
-In the project directory, you can run in the developer mode:
+In the project directory, you can run in the **developer** mode:
 
 ### `npm install`
 ### `npm start`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Or you can build for production and serve the app:
+Or you can build for **production** and serve the app:
 
 ### `npm install`
 ### `npm run build`
